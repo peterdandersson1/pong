@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44104CAE1AA399A6006D9A50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44104CAD1AA399A6006D9A50 /* main.m */; };
+		44104CB11AA399A6006D9A50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44104CB01AA399A6006D9A50 /* AppDelegate.m */; };
+		44104CB41AA399A6006D9A50 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44104CB31AA399A6006D9A50 /* ViewController.m */; };
+		44104CB71AA399A6006D9A50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44104CB51AA399A6006D9A50 /* Main.storyboard */; };
+		44104CB91AA399A6006D9A50 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44104CB81AA399A6006D9A50 /* Images.xcassets */; };
+		44104CBC1AA399A6006D9A50 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44104CBA1AA399A6006D9A50 /* LaunchScreen.xib */; };
+		44104CC81AA399A6006D9A50 /* PongTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44104CC71AA399A6006D9A50 /* PongTests.m */; };
+		44104CD31AA3B14A006D9A50 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 44104CD21AA3B14A006D9A50 /* Game.m */; };
+		4452C3A11AA5034000AFD0F3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4452C3A01AA5034000AFD0F3 /* AudioToolbox.framework */; };
+		4452C3A51AA50D3600AFD0F3 /* Clang.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4452C3A41AA50D3600AFD0F3 /* Clang.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44104CC21AA399A6006D9A50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44104CA01AA399A5006D9A50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44104CA71AA399A6006D9A50;
+			remoteInfo = Pong;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44104CA81AA399A6006D9A50 /* Pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44104CAC1AA399A6006D9A50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44104CAD1AA399A6006D9A50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44104CAF1AA399A6006D9A50 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		44104CB01AA399A6006D9A50 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		44104CB21AA399A6006D9A50 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		44104CB31AA399A6006D9A50 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		44104CB61AA399A6006D9A50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44104CB81AA399A6006D9A50 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		44104CBB1AA399A6006D9A50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		44104CC11AA399A6006D9A50 /* PongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PongTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44104CC61AA399A6006D9A50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44104CC71AA399A6006D9A50 /* PongTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PongTests.m; sourceTree = "<group>"; };
+		44104CD11AA3B14A006D9A50 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		44104CD21AA3B14A006D9A50 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		4452C3A01AA5034000AFD0F3 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4452C3A41AA50D3600AFD0F3 /* Clang.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Clang.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44104CA51AA399A6006D9A50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4452C3A11AA5034000AFD0F3 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44104CBE1AA399A6006D9A50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44104C9F1AA399A5006D9A50 = {
+			isa = PBXGroup;
+			children = (
+				4452C3A01AA5034000AFD0F3 /* AudioToolbox.framework */,
+				44104CAA1AA399A6006D9A50 /* Pong */,
+				44104CC41AA399A6006D9A50 /* PongTests */,
+				44104CA91AA399A6006D9A50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44104CA91AA399A6006D9A50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44104CA81AA399A6006D9A50 /* Pong.app */,
+				44104CC11AA399A6006D9A50 /* PongTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44104CAA1AA399A6006D9A50 /* Pong */ = {
+			isa = PBXGroup;
+			children = (
+				44104CAF1AA399A6006D9A50 /* AppDelegate.h */,
+				44104CB01AA399A6006D9A50 /* AppDelegate.m */,
+				44104CB21AA399A6006D9A50 /* ViewController.h */,
+				44104CB31AA399A6006D9A50 /* ViewController.m */,
+				44104CB51AA399A6006D9A50 /* Main.storyboard */,
+				44104CD11AA3B14A006D9A50 /* Game.h */,
+				44104CD21AA3B14A006D9A50 /* Game.m */,
+				44104CB81AA399A6006D9A50 /* Images.xcassets */,
+				44104CBA1AA399A6006D9A50 /* LaunchScreen.xib */,
+				44104CAB1AA399A6006D9A50 /* Supporting Files */,
+			);
+			path = Pong;
+			sourceTree = "<group>";
+		};
+		44104CAB1AA399A6006D9A50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4452C3A41AA50D3600AFD0F3 /* Clang.wav */,
+				44104CAC1AA399A6006D9A50 /* Info.plist */,
+				44104CAD1AA399A6006D9A50 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		44104CC41AA399A6006D9A50 /* PongTests */ = {
+			isa = PBXGroup;
+			children = (
+				44104CC71AA399A6006D9A50 /* PongTests.m */,
+				44104CC51AA399A6006D9A50 /* Supporting Files */,
+			);
+			path = PongTests;
+			sourceTree = "<group>";
+		};
+		44104CC51AA399A6006D9A50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44104CC61AA399A6006D9A50 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44104CA71AA399A6006D9A50 /* Pong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44104CCB1AA399A6006D9A50 /* Build configuration list for PBXNativeTarget "Pong" */;
+			buildPhases = (
+				44104CA41AA399A6006D9A50 /* Sources */,
+				44104CA51AA399A6006D9A50 /* Frameworks */,
+				44104CA61AA399A6006D9A50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pong;
+			productName = Pong;
+			productReference = 44104CA81AA399A6006D9A50 /* Pong.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44104CC01AA399A6006D9A50 /* PongTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44104CCE1AA399A6006D9A50 /* Build configuration list for PBXNativeTarget "PongTests" */;
+			buildPhases = (
+				44104CBD1AA399A6006D9A50 /* Sources */,
+				44104CBE1AA399A6006D9A50 /* Frameworks */,
+				44104CBF1AA399A6006D9A50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44104CC31AA399A6006D9A50 /* PBXTargetDependency */,
+			);
+			name = PongTests;
+			productName = PongTests;
+			productReference = 44104CC11AA399A6006D9A50 /* PongTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44104CA01AA399A5006D9A50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "IT-Högskolan";
+				TargetAttributes = {
+					44104CA71AA399A6006D9A50 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = HP9U5PZR6F;
+					};
+					44104CC01AA399A6006D9A50 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 44104CA71AA399A6006D9A50;
+					};
+				};
+			};
+			buildConfigurationList = 44104CA31AA399A5006D9A50 /* Build configuration list for PBXProject "Pong" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44104C9F1AA399A5006D9A50;
+			productRefGroup = 44104CA91AA399A6006D9A50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44104CA71AA399A6006D9A50 /* Pong */,
+				44104CC01AA399A6006D9A50 /* PongTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44104CA61AA399A6006D9A50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44104CB71AA399A6006D9A50 /* Main.storyboard in Resources */,
+				44104CBC1AA399A6006D9A50 /* LaunchScreen.xib in Resources */,
+				4452C3A51AA50D3600AFD0F3 /* Clang.wav in Resources */,
+				44104CB91AA399A6006D9A50 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44104CBF1AA399A6006D9A50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44104CA41AA399A6006D9A50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44104CB41AA399A6006D9A50 /* ViewController.m in Sources */,
+				44104CB11AA399A6006D9A50 /* AppDelegate.m in Sources */,
+				44104CAE1AA399A6006D9A50 /* main.m in Sources */,
+				44104CD31AA3B14A006D9A50 /* Game.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44104CBD1AA399A6006D9A50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44104CC81AA399A6006D9A50 /* PongTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44104CC31AA399A6006D9A50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44104CA71AA399A6006D9A50 /* Pong */;
+			targetProxy = 44104CC21AA399A6006D9A50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44104CB51AA399A6006D9A50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44104CB61AA399A6006D9A50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44104CBA1AA399A6006D9A50 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44104CBB1AA399A6006D9A50 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44104CC91AA399A6006D9A50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		44104CCA1AA399A6006D9A50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44104CCC1AA399A6006D9A50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Pong/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		44104CCD1AA399A6006D9A50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Pong/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		44104CCF1AA399A6006D9A50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PongTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pong.app/Pong";
+			};
+			name = Debug;
+		};
+		44104CD01AA399A6006D9A50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PongTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pong.app/Pong";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44104CA31AA399A5006D9A50 /* Build configuration list for PBXProject "Pong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44104CC91AA399A6006D9A50 /* Debug */,
+				44104CCA1AA399A6006D9A50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44104CCB1AA399A6006D9A50 /* Build configuration list for PBXNativeTarget "Pong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44104CCC1AA399A6006D9A50 /* Debug */,
+				44104CCD1AA399A6006D9A50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44104CCE1AA399A6006D9A50 /* Build configuration list for PBXNativeTarget "PongTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44104CCF1AA399A6006D9A50 /* Debug */,
+				44104CD01AA399A6006D9A50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44104CA01AA399A5006D9A50 /* Project object */;
+}
